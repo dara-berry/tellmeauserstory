@@ -16,7 +16,7 @@ if (isset($_POST['who'])) {
         $html .= "As a " . $who . ", I want to " . $what . " so that I can " . $why . ".";
     } else if ($story == 'fairy') {
         $html = "<h2>Fairy Tale</h2>";
-        $html .= "Once upon a time in a kingdom far awway, there was a " . $who . " who wanted to " . $what . " but they couldn't because it didn't exist yet. They were very sad ";
+        $html .= "Once upon a time in a kingdom far away, there was a " . $who . " who wanted to " . $what . " but they couldn't because it didn't exist yet. They were very sad ";
         $html .= "until one day an awesome engineer came to the kingdom's rescue and made it so that the " . $who . " can " . $why . ". The engineer received a raise and everyone lived happily ever after.";
     } else if ($story == 'pirate'){
         $html = "<h2>Scurvey Pirrrrate</h2>";

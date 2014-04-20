@@ -7,6 +7,11 @@
     <meta name="author" content="Aeryith">
     <link rel="shortcut icon" href="/media/book_open.ico">
 
+    <meta property="og:image" content="http://www.tellmeauserstory.com/media/images/book.png"/>
+    <meta property="og:url" content="http://www.tellmeauserstory.com"/>
+    <meta property="og:title" content="Tell Me a User Story - An Agile User Story Generator"/>
+    <meta property="og:description" content="This application is an agile user story generator designed to help people write better agile user stories. This application is completely free. No signing up. No adds. Just pure learning and fun. Try it today!"/>
+
     <title>Agile User Story Generator - Tell Me a User Story</title>
 
     <!-- Bootstrap core CSS -->
@@ -221,6 +226,17 @@
     $('.modal').on('hidden.bs.modal', function(){
         $(this).find('form')[0].reset();
     });
+</script>
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50126384-1', 'tellmeauserstory.com');
+    ga('send', 'pageview');
+
 </script>
 
 </body>
